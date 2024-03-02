@@ -10,7 +10,7 @@
 
 [Script]
 
-Legymrun=type=http-post,pattern=https://cpes.legym.cn/running/app/v2/uploadRunningDetails,requires-body=1,script-path=https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/legymrun.js
+Legymrun=type=http-request,pattern=https://cpes.legym.cn/running/app/v2/uploadRunningDetails,requires-body=1,script-path=https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/legymrun.js
 
 [MITM] 
 
