@@ -19,7 +19,7 @@ hostname = cpes.legym.cn
 
 *******************************/
 
-var obj = JSON.parse(response.body);
+var obj = JSON.parse($response.body);
 
 obj.data.averageSpeedStart = "0";
 obj.data.averageSpeedEnd = "8100000000";
