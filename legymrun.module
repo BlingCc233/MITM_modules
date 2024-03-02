@@ -1,0 +1,17 @@
+#!name=Legymrun
+
+#!desc=乐健跑步修改
+
+#!homepage=https://github.com/BlingCc233/MITM_modules/tree/main
+
+#!author=BlingCc
+
+
+
+[Script]
+
+Legymrun=type=http-post,pattern=https://cpes.legym.cn/running/app/v2/uploadRunningDetails,requires-body=1,script-path=https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/legymrun.js
+
+[MITM] 
+
+hostname = %APPEND% cpes.legym.cn

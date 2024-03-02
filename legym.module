@@ -1,0 +1,17 @@
+#!name=Legym
+
+#!desc=乐健签到
+
+#!homepage=https://github.com/BlingCc233/MITM_modules/tree/main
+
+#!author=BlingCc
+
+
+
+[Script]
+
+Legym=type=http-response,pattern=https://cpes.legym.cn/education/activity/simple/attainability/get,requires-body=1,script-path=https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/legym.js
+
+[MITM] 
+
+hostname = %APPEND% cpes.legym.cn
