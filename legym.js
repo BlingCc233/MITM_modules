@@ -20,7 +20,7 @@ hostname = cpes.legym.cn
 
 *******************************/
 
-var obj = JSON.parse($response.body)
+var obj = JSON.parse($response.body);
 
 obj.data.radius = 6666;
 
