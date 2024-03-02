@@ -26,4 +26,4 @@ obj.data.radius = 6666;
 
 $done({
   body: JSON.stringify(obj),
-})
+});
