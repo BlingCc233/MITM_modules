@@ -1,6 +1,6 @@
 /*
 乐健修改跑步限制
-脚本版本： 1.0.2
+脚本版本： 1.0.3
 脚本作者：BlingCc
 更新时间：2024-03-03
 主页：blingcc.eu.org
@@ -29,8 +29,8 @@ obj.data.effectiveMileageEnd = 4.0;
 obj.data.dailyMileage = 50;
 obj.data.weeklyMileage = 50;
 // 设置每天的结束时间为24点
-obj.openTimes[0].dayEndTime = "86400000"; // 24 * 60 * 60 * 1000
-obj.weekOpenTimes[0].dayEndTime = "86400000"; // 24 * 60 * 60 * 1000
+obj.data.runningTimeLimit.openTimes[0].dayEndTime = "86400000"; // 24 * 60 * 60 * 1000
+obj.data.runningTimeLimit.weekOpenTimes[0].dayEndTime = "86400000"; // 24 * 60 * 60 * 1000
 
 $done({
   body: JSON.stringify(obj),
