@@ -28,9 +28,8 @@ obj.data.effectiveMileageStart = 0;
 obj.data.effectiveMileageEnd = 4.0;
 obj.data.dailyMileage = 50;
 obj.data.weeklyMileage = 50;
-// 设置每天的结束时间为24点
-obj.data.runningTimeLimit.openTimes[0].dayEndTime = "86400000"; // 24 * 60 * 60 * 1000
-obj.data.runningTimeLimit.weekOpenTimes[0].dayEndTime = "86400000"; // 24 * 60 * 60 * 1000
+obj.data.runningTimeLimit.openTimes[0].dayEndTime = "86300000"; 
+obj.data.runningTimeLimit.weekOpenTimes[0].dayEndTime = "86300000"; 
 
 $done({
   body: JSON.stringify(obj),
