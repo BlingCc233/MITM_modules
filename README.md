@@ -1,5 +1,7 @@
 # MITM_modules
-适用于 Shadowrocket， 圈X， Loon 的模块规则集
+## 项目进入维护阶段，有问题提交issue
+<center>适用于 Shadowrocket， 圈X， Loon 的模块规则集</center>
+
 
 - 小火箭安装[配置文件](https://whatshub.top/config/shadowrocket_basic.conf)
 - 在该配置下开启HTTPS解密
