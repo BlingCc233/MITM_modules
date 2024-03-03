@@ -42,7 +42,7 @@ var keepTimeInSeconds = parseInt(obj.keepTime, 10); // 将字符串转换为整�
 // 加上11分钟的秒数
 keepTimeInSeconds += 11 * 60; // 11分钟等于660秒
 // 将新的时间总秒数赋值回obj.keepTime
-obj.keepTime = keepTimeInSeconds.toString();
+//obj.keepTime = keepTimeInSeconds.toString();
 
 //obj.totalMileage = 3.7655144851433805;
 
