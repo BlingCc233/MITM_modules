@@ -1,7 +1,7 @@
 # MITM_modules
 适用于 Shadowrocket， 圈X， Loon 的模块规则集
 
-- [小火箭安装配置文件](https://whatshub.top/config/shadowrocket_basic.conf)
+- 小火箭安装[配置文件](https://whatshub.top/config/shadowrocket_basic.conf)
 - 在该配置下开启HTTPS解密
 - 安装CA证书 -> 下载CA证书 -> 允许 -> 设置 -> 最上面输密码安装
 - 在`设置-通用-关于本机-证书信任设置`信任新安装的证书
