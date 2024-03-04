@@ -1,4 +1,4 @@
-var obj = JSON.parse($request.body);
+var obj = JSON.parse($response.body);
 
 var currentTimestamp = new Date().getTime(); 
 
