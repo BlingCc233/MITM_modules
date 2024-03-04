@@ -24,10 +24,20 @@
 
 ## 圈X看这里
 
-> 目前你在`archive branch`，请切换到`main branch`在各个js文件注释里找到`Quantumult X`下面的例如以下代码的字段复制进去
+> 只需复制以下代码配置进去
+
 
 ```properties
+[rewrite_locala]
+^https?:\/\/cpes\.legym\.cn\/education\/activity\/simple\/attainability\/get url script-response-body https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/legym.js
 
+[mitm] 
+
+hostname = cpes.legym.cn
+```
+
+
+```properties
 [rewrite_locala]
 ^https?:\/\/cpes\.legym\.cn\/running\/app\/getRunningLimit url script-response-body https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/prefix_legym.js
 
