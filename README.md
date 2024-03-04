@@ -28,7 +28,7 @@
 
 
 ```properties
-[rewrite_locala]
+[rewrite_local]
 ^https?:\/\/cpes\.legym\.cn\/education\/activity\/simple\/attainability\/get url script-response-body https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/legym.js
 
 [mitm] 
@@ -38,7 +38,7 @@ hostname = cpes.legym.cn
 
 
 ```properties
-[rewrite_locala]
+[rewrite_local]
 ^https?:\/\/cpes\.legym\.cn\/running\/app\/getRunningLimit url script-response-body https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/prefix_legym.js
 
 [mitm] 
