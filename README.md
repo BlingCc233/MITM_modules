@@ -14,7 +14,7 @@
 - 回到小火箭打开`模块`
 - 导入[你需要的模块（例：乐健签到）](https://blingcc.eu.org/legym/legym.module)
 - 开启Shadowrocket代理，去软件里验证是否可用
-- 安卓需要上级路由进行类似上文的mitm代理，原理一样，可以是root，可以是软路由，可以是[Windows]([https://github.com/Grergo/clash-with-mitm](https://github.com/Grergo/clash-with-mitm?tab=readme-ov-file#mitm-configuration).都是CA+rewrite
+- 安卓需要上级路由进行类似上文的mitm代理，原理一样，可以是root，可以是软路由，可以是[Windows]([https://github.com/Grergo/clash-with-mitm](https://github.com/Grergo/clash-with-mitm?tab=readme-ov-file#mitm-configuration)).都是CA+rewrite
 
 ##  你可能用得到的链接：
 
