@@ -1,0 +1,7 @@
+[Script]
+
+Legymrun=type=http-request,pattern=https://cpes.legym.cn/education/activity/app/attainability/sign,requires-body=1,script-path=https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/suffix_legym.js
+
+[MITM] 
+
+hostname = %APPEND% cpes.legym.cn
