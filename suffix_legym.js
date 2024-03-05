@@ -1,8 +1,9 @@
 const $ = init();
-$.done();
-
   var modifiedHeaders = $request.headers;
   var legym_signBody = $request.body;
+$.done();
+
+
 
 function init() {
 
