@@ -20,7 +20,6 @@
 
 - https://blingcc.eu.org/legym/legym.module
 - https://blingcc.eu.org/legym/prefix_legym.module
-- https://blingcc.eu.org/legym/legym_interval.module
 
 ## 圈X看这里
 
