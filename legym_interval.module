@@ -10,7 +10,7 @@
 
 [Script]
 
-Legym=type=http-response,pattern=https:\/\/cpes\.legym\.cn\/education\/app\/activity\/checkSignInterval\?activityId=[a-zA-Z0-9]+,requires-body=1,script-path=https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/legym_interval.js
+intervalLegym=type=http-response,pattern=https:\/\/cpes\.legym\.cn\/education\/app\/activity\/checkSignInterval\?activityId=[a-zA-Z0-9]+,requires-body=1,script-path=https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/legym_interval.js
 
 [MITM] 
 
