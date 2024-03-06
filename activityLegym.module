@@ -8,7 +8,7 @@
 
 [Script]
 
-prefixLegym=type=http-response,pattern=https://cpes.legym.cn/education/app/activity/getActivityList,requires-body=1,script-path=https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/activityLegym.js
+activityLegym=type=http-response,pattern=https://cpes.legym.cn/education/app/activity/getActivityList,requires-body=1,script-path=https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/activityLegym.js
 
 [MITM] 
 
