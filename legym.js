@@ -22,7 +22,7 @@ hostname = cpes.legym.cn
 
 var obj = JSON.parse($response.body);
 
-obj.data.radius = 6666;
+obj.data.radius = 9996666;
 obj.data.locationLongitude = 103.938016;
 obj.data.locationLatitude = 30.762432;
 
