@@ -3,6 +3,8 @@
 <div align="center">
   
 ### _适用于 Shadowrocket， 圈X， Loon 的模块规则集_
+[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+
 
 </div>
 
