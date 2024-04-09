@@ -22,6 +22,7 @@
 
 - https://blingcc.eu.org/legym/legym.module
 - https://blingcc.eu.org/legym/prefix_legym.module
+- https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/classsign.module
 
 ## 圈X看这里
 
@@ -33,6 +34,7 @@
 [rewrite_local]
 ^https?:\/\/cpes\.legym\.cn\/running\/app\/getRunningLimit url script-response-body https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/prefix_legym.js
 ^https?:\/\/cpes\.legym\.cn\/education\/activity\/simple\/attainability\/get url script-response-body https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/legym.js
+^https?:\/\/cpes\.legym\.cn\/education\/attainability\/info url script-response-body https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/classsign.js
 
 [mitm] 
 
