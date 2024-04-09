@@ -1,8 +1,10 @@
-# MITM_乐健modules
+# MITM_legym_modules
 ## 项目进入维护阶段，有问题提交issue
 <div align="center">
   
 ### _适用于 Shadowrocket， 圈X， Loon 的模块规则集_
+[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+
 
 </div>
 
@@ -18,28 +20,27 @@
 
 ##  你可能用得到的链接：
 
-- https://blingcc.eu.org/legym/legym.module
-- https://blingcc.eu.org/legym/prefix_legym.module
-- https://blingcc.eu.org/legym/activityLegym.module
+```properties 
+https://blingcc.eu.org/legym/legym.module
+```
+```properties
+https://blingcc.eu.org/legym/prefix_legym.module
+```
+```properties
+https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/classsign.module
+```
 
 ## 圈X看这里
 
-> 只需复制以下代码配置进去
+> 只需复制以下代码配置（不包括`[rewrite_local]`和`[mitm]`）放到对应字段
 
-
-```properties
-[rewrite_locala]
-^https?:\/\/cpes\.legym\.cn\/education\/activity\/simple\/attainability\/get url script-response-body https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/legym.js
-
-[mitm] 
-
-hostname = cpes.legym.cn
-```
 
 
 ```properties
-[rewrite_locala]
+[rewrite_local]
 ^https?:\/\/cpes\.legym\.cn\/running\/app\/getRunningLimit url script-response-body https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/prefix_legym.js
+^https?:\/\/cpes\.legym\.cn\/education\/activity\/simple\/attainability\/get url script-response-body https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/legym.js
+^https?:\/\/cpes\.legym\.cn\/education\/attainability\/info url script-response-body https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/classsign.js
 
 [mitm] 
 
