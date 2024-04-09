@@ -20,9 +20,15 @@
 
 ##  你可能用得到的链接：
 
-- https://blingcc.eu.org/legym/legym.module
-- https://blingcc.eu.org/legym/prefix_legym.module
-- https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/classsign.module
+```properties 
+https://blingcc.eu.org/legym/legym.module
+```
+```properties
+https://blingcc.eu.org/legym/prefix_legym.module
+```
+```properties
+https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/classsign.module
+```
 
 ## 圈X看这里
 
