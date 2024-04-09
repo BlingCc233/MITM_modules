@@ -1,24 +1,24 @@
 # MITM_legym_modules
-## 项目进入维护阶段，有问题提交issue
+## The project enters the maintenance phase. Please submit an issue if you have any questions.
 <div align="center">
   
-### _适用于 Shadowrocket， 圈X， Loon 的模块规则集_
+### _Module rules for Shadowrocket, Quantumult X, and Loon_
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
 
 </div>
 
 
-- 小火箭安装[配置文件](https://whatshub.top/config/shadowrocket_basic.conf)
-- 在该配置下开启HTTPS解密
-- 安装CA证书 -> 下载CA证书 -> 允许 -> 设置 -> 最上面输密码安装
-- 在`设置-通用-关于本机-证书信任设置`信任新安装的证书
-- 回到小火箭打开`模块`
-- 导入[你需要的模块（例：乐健签到）](https://blingcc.eu.org/legym/legym.module)
-- 开启Shadowrocket代理，去软件里验证是否可用
-- 安卓需要上级路由进行类似上文的mitm代理，原理一样，可以是root，可以是软路由，可以是[Windows](https://github.com/Grergo/clash-with-mitm?tab=readme-ov-file#mitm-configuration) .都是CA+rewrite
+- Install [configuration file](https://whatshub.top/config/shadowrocket_basic.conf) for Shadowrocket.
+- Enable HTTPS decryption under this configuration.
+- Install the CA certificate -> Download the CA certificate -> Allow -> Settings -> Enter password at the top to install.
+- Trust the newly installed certificate in `Settings - General - About - Certificate Trust Settings`.
+- Go back to Shadowrocket and open `Modules`.
+- Import [the module you need (e.g., legym check-in)](https://blingcc.eu.org/legym/legym.module).
+- Enable Shadowrocket proxy and verify its functionality in the app.
+- For Android, you need to use a superior routing method for mitm proxy similar to the one mentioned above. The principle is the same, whether it's rooted, soft-routed, or [Windows](https://github.com/Grergo/clash-with-mitm?tab=readme-ov-file#mitm-configuration). It all involves CA+rewrite.
 
-##  你可能用得到的链接：
+## Links you may need:
 
 ```properties 
 https://blingcc.eu.org/legym/legym.module
@@ -30,11 +30,8 @@ https://blingcc.eu.org/legym/prefix_legym.module
 https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/classsign.module
 ```
 
-## 圈X看这里
-
-> 只需复制以下代码配置（不包括`[rewrite_local]`和`[mitm]`）放到对应字段
-
-
+## For Quantumult X users:
+> Simply copy the following code configuration (excluding `[rewrite_local]` and `[mitm]`) to the corresponding field.
 
 ```properties
 [rewrite_local]
@@ -47,4 +44,3 @@ https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/classsign.module
 hostname = cpes.legym.cn
 
 ```
-
