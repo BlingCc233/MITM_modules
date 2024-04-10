@@ -1,5 +1,5 @@
 # MITM_legym_modules
-## 项目进入维护阶段，有问题提交issue
+> 项目进入维护阶段，有问题提交issue
 <div align="center">
   
 ### _适用于 Shadowrocket， 圈X， Loon 的模块规则集_
@@ -28,6 +28,29 @@ https://blingcc.eu.org/legym/prefix_legym.module
 ```
 ```properties
 https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/classsign.module
+```
+
+## Loon看这里
+> 复制粘贴
+
+```properties
+#!name=Legym
+
+#!homepage=https://github.com/BlingCc233/MITM_modules/tree/archive
+
+#!author=BlingCc
+
+
+[Script]
+
+Classsign=type=http-response,pattern=https://cpes.legym.cn/education/attainability/info,requires-body=1,script-path=https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/classsign.js
+Legym=type=http-response,pattern=https://cpes.legym.cn/education/activity/simple/attainability/get,requires-body=1,script-path=https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/legym.js
+prefixLegym=type=http-response,pattern=https://cpes.legym.cn/running/app/getRunningLimit,requires-body=1,script-path=https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/prefix_legym.js
+
+
+[MITM] 
+
+hostname = %APPEND% cpes.legym.cn
 ```
 
 ## 圈X看这里
