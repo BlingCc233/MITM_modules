@@ -30,6 +30,29 @@ https://blingcc.eu.org/legym/prefix_legym.module
 https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/classsign.module
 ```
 
+## Loon看这里
+> 复制粘贴
+
+```properties
+#!name=Legym
+
+#!homepage=https://github.com/BlingCc233/MITM_modules/tree/archive
+
+#!author=BlingCc
+
+
+[Script]
+
+Classsign=type=http-response,pattern=https://cpes.legym.cn/education/attainability/info,requires-body=1,script-path=https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/classsign.js
+Legym=type=http-response,pattern=https://cpes.legym.cn/education/activity/simple/attainability/get,requires-body=1,script-path=https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/legym.js
+prefixLegym=type=http-response,pattern=https://cpes.legym.cn/running/app/getRunningLimit,requires-body=1,script-path=https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/prefix_legym.js
+
+
+[MITM] 
+
+hostname = %APPEND% cpes.legym.cn
+```
+
 ## 圈X看这里
 
 > 只需复制以下代码配置（不包括`[rewrite_local]`和`[mitm]`）放到对应字段
