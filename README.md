@@ -30,6 +30,29 @@ https://blingcc.eu.org/legym/prefix_legym.module
 https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/classsign.module
 ```
 
+## For Loon users:
+> copy and paste
+
+```properties
+#!name=Legym
+
+#!homepage=https://github.com/BlingCc233/MITM_modules/tree/archive
+
+#!author=BlingCc
+
+
+[Script]
+
+Classsign=type=http-response,pattern=https://cpes.legym.cn/education/attainability/info,requires-body=1,script-path=https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/classsign.js
+Legym=type=http-response,pattern=https://cpes.legym.cn/education/activity/simple/attainability/get,requires-body=1,script-path=https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/legym.js
+prefixLegym=type=http-response,pattern=https://cpes.legym.cn/running/app/getRunningLimit,requires-body=1,script-path=https://raw.githubusercontent.com/BlingCc233/MITM_modules/main/prefix_legym.js
+
+
+[MITM] 
+
+hostname = %APPEND% cpes.legym.cn
+```
+
 ## For Quantumult X users:
 > Simply copy the following code configuration (excluding `[rewrite_local]` and `[mitm]`) to the corresponding field.
 
